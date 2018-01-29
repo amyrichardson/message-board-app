@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Message Board</title>
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/messages.controller.js"></script>
+
+
+</head>
+<body ng-app="myApp" ng-controller="MessagesController as vm">
+    <input type="text" ng-model="vm.message.user" placeholder="Name">
+    <input type="text" ng-model="vm.message.text" placeholder="Message">
+    <button ng-click="vm.addMessage(vm.message)">Add Message</button>
+
+</body>
+</html>

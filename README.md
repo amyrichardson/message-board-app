@@ -1,8 +1,8 @@
 # Message Board Application
 
 ## Front End
-- [ ] 2 inputs - user name, user message
-- [ ] submit button - on click, send name and message to MessageController
+- [x] 2 inputs - user name, user message
+- [x] submit button - on click, send name and message to MessageController
 - [ ] MessageController function post to server
 - [ ] MessageController get all messages from db
 - [ ] Display messages on DOM

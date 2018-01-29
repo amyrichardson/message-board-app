@@ -1,0 +1,26 @@
+{
+  "name": "mongo-angular-challenge",
+  "version": "1.0.0",
+  "description": "## Front End - [ ] 2 inputs - user name, user message - [ ] submit button - on click, send name and message to MessageController - [ ] MessageController function post to server - [ ] MessageController get all messages from db - [ ] Display messages on DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyrichardson/message-board-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyrichardson/message-board-app/issues"
+  },
+  "homepage": "https://github.com/amyrichardson/message-board-app#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2"
+  }
+}
