@@ -14,4 +14,4 @@
 
 ## Extended...
 - [x] Add a service
-- [ ] Bring in Angular Material
+- [x] Styles

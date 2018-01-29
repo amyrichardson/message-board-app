@@ -1,0 +1,76 @@
+html{
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+form {
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message-input {
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 12pt;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px dashed lightseagreen;
+}
+
+.message-name {
+    width: 40%;
+}
+
+.submit-btn {
+    border: 0; 
+    outline: 0;
+    width: 20%;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0px;
+    margin-left: 60%;
+    font-size: 12pt;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+h3 {
+    color: lightseagreen;
+    border-bottom: 1px dashed black;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.message-container {
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.message-item {
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 1px solid lightseagreen;
+}
+
+
+
+
+
