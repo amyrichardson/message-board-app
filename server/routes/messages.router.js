@@ -32,7 +32,20 @@ router.post('/', (req, res) => {
         }
     });
 });
+
+
 //GET
+router.get('/', (req, res) => {
+    Message.find({}, (error, foundMessages) => {
+        if(error) {
+            console.log('error on find:', error);
+            res.sendStatus(500);
+        } else {
+            console.log('found message documents', foundMessages);
+            res.send(foundMessages);
+        }
+    })
+});
 
 
 module.exports = router;
