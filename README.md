@@ -13,4 +13,5 @@
 - [x] GET route, find all messages in db
 
 ## Extended...
-- [ ] Add a service
+- [x] Add a service
+- [ ] Bring in Angular Material
