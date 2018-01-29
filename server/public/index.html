@@ -8,9 +8,24 @@
     <script src="scripts/controllers/messages.controller.js"></script>
     <script src="scripts/services/messages.service.js"></script>
 
-
 </head>
 <body ng-app="myApp" ng-controller="MessagesController as vm">
+
+    <md-content layout-gt-sm="row" layout-padding>
+        <div>
+            <md-input-container>
+            <label>Name</label>
+            <input ng-model="vm.message.user">
+            </md-input-container>
+
+            <md-input-container>
+            <label>Message</label>
+            <input ng-model="vm.message.text" type="email">
+            </md-input-container>
+        </div>
+    </md-content>
+            
+
     <input type="text" ng-model="vm.message.user" placeholder="Name">
     <input type="text" ng-model="vm.message.text" placeholder="Message">
     <button ng-click="vm.addMessage(vm.message)">Add Message</button>
