@@ -14,5 +14,12 @@
     <input type="text" ng-model="vm.message.text" placeholder="Message">
     <button ng-click="vm.addMessage(vm.message)">Add Message</button>
 
+    <h3>Messages:</h3>
+    <ul>
+        <li ng-repeat="message in vm.messages.list">
+            "{{message.text}}" -{{message.user}}
+        </li>
+    </ul>
+
 </body>
 </html>

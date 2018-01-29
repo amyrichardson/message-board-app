@@ -2,7 +2,7 @@ myApp.controller('MessagesController', ['$http', function($http) {
     console.log('MessagesController loaded');
     
     const self = this;
-    let messages = { list: [] }
+    self.messages = { list: [] }
 
     self.addMessage = function(message) {
         //post message to server
@@ -24,7 +24,9 @@ myApp.controller('MessagesController', ['$http', function($http) {
         $http.get('/messages')
             .then(function(response){
                 console.log('messages: ', response);
-                messages.list = response.data;
+                self.messages.list = response.data;
+                console.log('message list: ', messages);
+                
             })
             .catch(function(response){
                 console.log('error getting messages: ', response);   

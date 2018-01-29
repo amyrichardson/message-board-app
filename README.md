@@ -5,7 +5,7 @@
 - [x] submit button - on click, send name and message to MessageController
 - [x] MessageController function post to server
 - [x] MessageController get all messages from db
-- [ ] Display messages on DOM
+- [x] Display messages on DOM
 
 
 ## Back End
